@@ -1,0 +1,94 @@
+/* Signup.css */
+
+.signup {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.signup form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.signup label {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.signup input[type="text"],
+.signup input[type="password"] {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.signup input[type="text"]:focus,
+.signup input[type="password"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+
+.signup input[type="submit"] {
+  margin-top: 10px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.signup input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.signup input[type="submit"]:active {
+  transform: scale(0.98);
+}
+
+.signup p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #e74c3c; /* Red for error messages */
+}
+
+.signup p:first-of-type {
+  color: #28a745; /* Green for success messages */
+}
+
+/* Links for Update/Delete */
+.signup a {
+  display: block;
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .signup {
+    margin: 20px auto;
+    padding: 20px;
+  }
+}

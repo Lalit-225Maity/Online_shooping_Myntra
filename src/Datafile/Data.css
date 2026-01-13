@@ -1,0 +1,122 @@
+/* Page background */
+.data {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff3f6c, #ff905a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Form container */
+#form {
+  background: #ffffff;
+  padding: 30px 35px;
+  width: 420px;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Each input group */
+.formdata {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+/* Labels */
+.formdata label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+/* Inputs */
+.formdata input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Focus effect */
+.formdata input:focus {
+  outline: none;
+  border-color: #ff3f6c;
+  box-shadow: 0 0 0 2px rgba(255, 63, 108, 0.2);
+}
+
+/* Gender section */
+.select {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.select label {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+/* Save button */
+#save {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #ff3f6c;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Save hover */
+#save:hover {
+  background: #e7335c;
+  transform: translateY(-1px);
+}
+
+/* Logout button */
+.data button {
+  margin-top: 18px;
+  width: 420px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ff3f6c;
+  background: transparent;
+  color: #ff3f6c;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Logout hover */
+.data button:hover {
+  background: #ff3f6c;
+  color: white;
+}
+/* Logout button under save */
+.logout {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ff3f6c;
+  background: transparent;
+  color: #ff3f6c;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover */
+.logout:hover {
+  background: #ff3f6c;
+  color: white;
+}
